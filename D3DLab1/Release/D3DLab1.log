@@ -1,9 +1,10 @@
-﻿Build started 1/12/2013 8:38:52 PM.
+﻿Build started 1/13/2013 7:21:26 AM.
      1>Project "C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\D3DLab1\D3DLab1.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Release\Tank Revised.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BiPlane.cpp DirectXFramework.cpp PlanePath.cpp Projectile.cpp ScoreBoard.cpp WinMain.cpp
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BiPlane.cpp DirectXFramework.cpp PlanePath.cpp Projectile.cpp ScoreBoard.cpp WinMain.cpp
          BiPlane.cpp
      1>BiPlane.cpp(26): warning C4101: 'lhRc' : unreferenced local variable
          DirectXFramework.cpp
@@ -119,7 +120,7 @@
      1>c:\users\darrell\documents\visual studio 2010\projects\tank\tank\d3dlab1\DirectXFramework.h(30): warning C4005: 'DIRECTINPUT_VERSION' : macro redefinition
                  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h(42) : see previous definition of 'DIRECTINPUT_VERSION'
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" dinput8.lib dxguid.lib strmiids.lib fmodex_vc.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Tank Revised.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.lib" /MACHINE:X86 Release\BiPlane.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.exe" /INCREMENTAL:NO /NOLOGO dinput8.lib dxguid.lib strmiids.lib fmodex_vc.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Tank Revised.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\darrell\Documents\Visual Studio 2010\Projects\Tank\Tank\Release\Tank Revised.lib" /MACHINE:X86 Release\BiPlane.obj
          Release\DirectXFramework.obj
          Release\PlanePath.obj
          Release\Projectile.obj
@@ -137,4 +138,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:16.25
+Time Elapsed 00:00:07.74
